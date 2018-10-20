@@ -1,0 +1,109 @@
+{
+  "pages": {
+    "HRM": {
+      "Employees": {
+        "members": [
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Genevieve", "lastname": "Alameda" },
+          { "img": "", "firstname": "Jane", "lastname": "Ferrer" },
+          { "img": "", "firstname": "Elena", "lastname": "Cruz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "William", "lastname": "Ortiz" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" },
+          { "img": "", "firstname": "Gabriel", "lastname": "Reyes" }
+        ]
+      },
+      "Lists":{
+        "table": {
+          "columns": [
+            {"Header": "Firstname",
+            "accessor": "firstname"},
+            {"Header": "Lastname",
+              "accessor": "lastname"}
+            ],
+          "data": [
+            { "firstname": "Gabriel", "lastname": "Ferrer" },
+            { "firstname": "Genevieve", "lastname": "Ferrer" },
+            { "firstname": "Jane", "lastname": "Ferrer" },
+            { "firstname": "Elena", "lastname": "Ferrer" },
+            { "firstname": "William", "lastname": "Ferrer" }
+          ]
+        }
+      },
+      "Applications": {
+        "lanes": [
+          {
+            "id": "intialQualification",
+            "title": "Initial Qualification",
+            "label": "0/0",
+            "cards": []
+          },
+          {
+            "id": "readyToTeach",
+            "title": "Ready to teach",
+            "label": "0/0",
+            "cards": []
+          },
+          {
+            "id": "firstInterview",
+            "title": "First Interview",
+            "label": "0/0",
+            "cards": []
+          },
+          {
+            "id": "Second Interview",
+            "title": "Ready to teach",
+            "label": "0/0",
+            "cards": []
+          },
+          {
+            "id": "internship",
+            "title": "Internship",
+            "label": "0/0",
+            "cards": []
+          },
+          {
+            "id": "contractsigned",
+            "title": "Contract Signed",
+            "label": "0/0",
+            "cards": []
+          },
+          {
+            "id": "contractend",
+            "title": "Contract End",
+            "label": "0/0",
+            "cards": []
+          },
+          {
+            "id": "refused",
+            "title": "Refused",
+            "label": "0/0",
+            "cards": []
+          }
+        ]
+      }
+    }
+  }
+}

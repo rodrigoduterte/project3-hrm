@@ -1,0 +1,626 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "hrdb"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Abstractdisplayfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrconfig": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrcountry": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrcurrencytype": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrcustomexport": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrcustomfields": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrcustomimport": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrdistrict": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempattachment": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempbasicsalary": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempchildren": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempcontractextend": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempdependents": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempdirectdebit": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempemergencycontacts": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshremphistoryofealierpos": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshremplanguage": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshremplocations": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshremployee": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempmemberdetail": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshremppassport": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshremppicture": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempreportto": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempskill": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempustax": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrempworkexperience": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrjobtitempstat": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrmailnotifications": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrmodule": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrpayperiod": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrpayperiodcode": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshrprovince": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Hshruniqueid": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmadvancedreport": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmattendancerecord": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmauthproviderextradetails": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmavailablegroupfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmbeaconnotification": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmcompositedisplayfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmcustomer": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmdatagroup": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmdatagroupscreen": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmdatapoint": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmdatapointtype": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmdisplayfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmdisplayfieldgroup": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmeducation": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemail": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemailconfiguration": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemailnotification": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemailprocessor": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemailsubscriber": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemailtemplate": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmempeducation": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemplicense": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemployeeevent": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemployeeworkshift": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemploymentstatus": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmempreportingmethod": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmemptermination": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmempterminationreason": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmfilterfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmgroupfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmholiday": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmhomepage": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobcandidate": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobcandidateattachment": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobcandidatehistory": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobcandidatevacancy": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobcategory": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobinterview": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobinterviewattachment": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobinterviewinterviewer": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobspecificationattachment": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobtitle": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobvacancy": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmjobvacancyattachment": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmkpi": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmlanguage": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleave": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleaveadjustment": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleavecomment": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleaveentitlement": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleaveentitlementadjustment": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleaveentitlementtype": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleaveleaveentitlement": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleaveperiodhistory": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleaverequest": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleaverequestcomment": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleavestatus": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmleavetype": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmlicense": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmlocation": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmlogin": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmmembership": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmmenuitem": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmmodule": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmmoduledefaultpage": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmnationality": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmoauthaccesstoken": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmoauthauthorizationcode": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmoauthclient": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmoauthrefreshtoken": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmoauthuser": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmopenidprovider": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmopeniduseridentity": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmoperationalcountry": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmorganizationgeninfo": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmpaygrade": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmpaygradecurrency": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmperformancereview": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmperformancetrack": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmperformancetrackerlog": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmperformancetrackerreviewer": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmplugin": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmproject": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmprojectactivity": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmprojectadmin": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmreport": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmreportgroup": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmreviewer": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmreviewergroup": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmreviewerrating": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmroleuserselectionrule": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmscreen": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmselectedcompositedisplayfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmselecteddisplayfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmselecteddisplayfieldgroup": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmselectedfilterfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmselectedgroupfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmskill": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmsubunit": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmsummarydisplayfield": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmtimesheet": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmtimesheetactionlog": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmtimesheetitem": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmupgradehistory": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmuser": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmuserrole": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmuserroledatagroup": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmuserrolescreen": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmuserselectionrule": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmworkflowstatemachine": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmworkshift": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmworkweek": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "Ohrmwsconsumer": {
+    "dataSource": "hrdb",
+    "public": true
+  },
+  "modelinfo": {
+    "dataSource": "db",
+    "public": true
+  }
+}
